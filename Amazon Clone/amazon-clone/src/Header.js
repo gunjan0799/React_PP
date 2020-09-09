@@ -5,10 +5,11 @@ import SearchIcon from '@material-ui/icons/Search';
 export default function Header() {
     return (
         <div className='header'>
-            <img src='https://pngimg.com/uploads/amazon/amazon_PNG11.png' />
+            <img className='header_logo' src='https://pngimg.com/uploads/amazon/amazon_PNG11.png' />
+            
             <div className='header_search'>
-                <input className='header_searchinput ' type='text' />
-                <SearchIcon className="header_searchInput"/>
+                <input className='header_searchInput ' type='text' />
+                <SearchIcon className="header_searchIcon"/>
             </div>
             <div className='header_nav'>
                 <div className='header_option'>
